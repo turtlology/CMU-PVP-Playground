@@ -3,4 +3,4 @@ project(dev_env)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(dev_env main.cpp)
+add_executable(dev_env workspace/main.cpp)
