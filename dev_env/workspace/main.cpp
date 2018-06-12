@@ -1,7 +1,6 @@
 #include <iostream>
-#include <tbb>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << __VERSION__ << std::endl;
     return 0;
 }

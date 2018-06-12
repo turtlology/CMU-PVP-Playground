@@ -1,4 +1,6 @@
 /Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/turtlologist/git/CMU-PVP-Playground/dev_env
+-- Boost version: 1.67.0
+-- Found rapidjson header files in /usr/local/include
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/turtlologist/git/CMU-PVP-Playground/dev_env
