@@ -1,8 +1,14 @@
-#include <boost/test/included/unit_test.hpp>
-//
-int test_main(int argc, char *argv[])
+#define BOOST_TEST_MAIN
+
+#include <boost/test/unit_test.hpp>
+
+BOOST_AUTO_TEST_CASE( constructors )
 {
-    using namespace boost;
-    int first = 0;
-//    BOOST_CHECK_EQUAL(first, 0);
+//    SomeBaseClass obj;
+//    SomeBaseClass obj2;
+//
+////Check default constructor
+////Use BOOST_CHECK for small equal checks - true or false
+    BOOST_CHECK(0 == 0);
+//    ......
 }

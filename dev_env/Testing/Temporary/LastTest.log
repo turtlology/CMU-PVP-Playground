@@ -1,0 +1,19 @@
+Start testing: Jun 14 02:10 EDT
+----------------------------------------------------------
+Unable to find executable: tester
+1/1 Testing: tester
+1/1 Test: tester
+Command: ""
+Directory: /Users/turtlologist/git/CMU-PVP-Playground/dev_env
+"tester" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tester" end time: Jun 14 02:10 EDT
+"tester" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 14 02:10 EDT

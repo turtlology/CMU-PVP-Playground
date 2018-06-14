@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 project(dev_env)
 
-set(CMAKE_CXX_STANDARD 11)
+enable_testing()
+
+set(CMAKE_CXX_STANDARD 14)
 
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/modules")
 
