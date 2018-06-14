@@ -44,8 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin17.4.0/4.9.4/../../../../../../include/c++/4.9.4"/>
 					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin17.4.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin17.4.0"/>
 					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin17.4.0/4.9.4/../../../../../../include/c++/4.9.4/backward"/>
@@ -70,8 +70,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin17.4.0/4.9.4/../../../../../../include/c++/4.9.4"/>
 					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin17.4.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin17.4.0"/>
 					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin17.4.0/4.9.4/../../../../../../include/c++/4.9.4/backward"/>
@@ -90,7 +90,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/dev_env/workspace/main.cpp">
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/dev_env/src/main.cpp">
+			<Option target="dev_env"/>
+		</Unit>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/dev_env/src/test.cpp">
 			<Option target="dev_env"/>
 		</Unit>
 		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/dev_env/CMakeLists.txt">

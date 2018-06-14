@@ -123,32 +123,59 @@ dev_env/fast:
 	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/build
 .PHONY : dev_env/fast
 
-workspace/main.o: workspace/main.cpp.o
+src/main.o: src/main.cpp.o
 
-.PHONY : workspace/main.o
+.PHONY : src/main.o
 
 # target to build an object file
-workspace/main.cpp.o:
-	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/workspace/main.cpp.o
-.PHONY : workspace/main.cpp.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-workspace/main.i: workspace/main.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : workspace/main.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-workspace/main.cpp.i:
-	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/workspace/main.cpp.i
-.PHONY : workspace/main.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-workspace/main.s: workspace/main.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : workspace/main.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-workspace/main.cpp.s:
-	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/workspace/main.cpp.s
-.PHONY : workspace/main.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/test.o: src/test.cpp.o
+
+.PHONY : src/test.o
+
+# target to build an object file
+src/test.cpp.o:
+	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
+
+src/test.i: src/test.cpp.i
+
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cpp.i:
+	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
+
+src/test.s: src/test.cpp.s
+
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cpp.s:
+	$(MAKE) -f CMakeFiles/dev_env.dir/build.make CMakeFiles/dev_env.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... dev_env"
-	@echo "... workspace/main.o"
-	@echo "... workspace/main.i"
-	@echo "... workspace/main.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 .PHONY : help
 
 

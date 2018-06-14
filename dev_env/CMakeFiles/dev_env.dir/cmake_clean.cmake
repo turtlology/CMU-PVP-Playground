@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dev_env.dir/workspace/main.cpp.o"
+  "CMakeFiles/dev_env.dir/src/main.cpp.o"
+  "CMakeFiles/dev_env.dir/src/test.cpp.o"
   "dev_env.pdb"
   "dev_env"
 )
