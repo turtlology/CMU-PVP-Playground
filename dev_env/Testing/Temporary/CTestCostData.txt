@@ -1,3 +1,0 @@
-tester 0 0
----
-tester
