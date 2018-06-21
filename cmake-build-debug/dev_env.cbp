@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dev_env"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\unittest\;CMake Files\systemtest\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_env">
+				<Option output="/Users/turtlologist/git/CMU-PVP-Playground/bin/dev_env" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/turtlologist/git/CMU-PVP-Playground/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 dev_env"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_env/fast">
+				<Option output="/Users/turtlologist/git/CMU-PVP-Playground/bin/dev_env" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/turtlologist/git/CMU-PVP-Playground/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 dev_env/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_env_unit_tests">
+				<Option output="/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/dev_env_unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/turtlologist/git/CMU-PVP-Playground/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/Makefile&quot;  VERBOSE=1 dev_env_unit_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_env_unit_tests/fast">
+				<Option output="/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/dev_env_unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/turtlologist/git/CMU-PVP-Playground/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/Makefile&quot;  VERBOSE=1 dev_env_unit_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_env_system_tests">
+				<Option output="/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/dev_env_system_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/turtlologist/git/CMU-PVP-Playground/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/Makefile&quot;  VERBOSE=1 dev_env_system_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_env_system_tests/fast">
+				<Option output="/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/dev_env_system_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/turtlologist/git/CMU-PVP-Playground/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/Makefile&quot;  VERBOSE=1 dev_env_system_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/turtlologist/git/CMU-PVP-Playground/cmake-build-debug/systemtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/src/main.cpp">
+			<Option target="dev_env"/>
+		</Unit>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/systemtest/test_demo.cpp">
+			<Option target="dev_env_system_tests"/>
+		</Unit>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/systemtest/test_main.cpp">
+			<Option target="dev_env_system_tests"/>
+		</Unit>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/unittest/test_demo.cpp">
+			<Option target="dev_env_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/unittest/test_main.cpp">
+			<Option target="dev_env_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/unittest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\"/>
+		</Unit>
+		<Unit filename="/Users/turtlologist/git/CMU-PVP-Playground/systemtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\systemtest\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
